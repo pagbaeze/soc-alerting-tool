@@ -11,8 +11,14 @@ This project simulates a Security Operations Center (SOC) alerting system.
 - IOC (Indicators of Compromise) extraction
 
 ## Sample Output
-- High-risk alerts for suspicious logins
-- Structured report with recommended analyst actions
+Example alert report:
+sample_output/soc_alert_report.txt
+This output demonstrates:
+- Risk scoring and severity classification  
+- Detection reasoning (why an alert was triggered)  
+- MITRE ATT&CK mapping  
+- Indicators of Compromise (IOCs)  
+- Recommended analyst response actions  
 
 ## Technologies Used
 - Python
