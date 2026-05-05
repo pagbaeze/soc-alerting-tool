@@ -1,6 +1,6 @@
 # SOC Alerting Tool (Python)
 
-This project simulates a Security Operations Center (SOC) alerting system.
+This tool is designed to simulate real-world SOC alert triage and detection workflows.
 
 ## Features
 - Detects brute force login attempts
