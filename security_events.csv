@@ -1,0 +1,18 @@
+timestamp,user,role,event_type,source_ip,country
+2026-05-03 01:10,jdoe,User,successful_login,192.168.1.10,United States
+2026-05-03 01:12,jdoe,User,failed_login,192.168.1.10,United States
+2026-05-03 01:13,jdoe,User,failed_login,192.168.1.10,United States
+2026-05-03 01:14,jdoe,User,failed_login,192.168.1.10,United States
+2026-05-03 02:00,bwilliams,User,successful_login,192.168.1.25,United States
+2026-05-03 02:05,bwilliams,User,successful_login,185.220.101.10,Germany
+2026-05-03 02:10,bwilliams,User,successful_login,103.251.167.20,China
+2026-05-03 02:20,asmith,Admin,successful_login,91.198.174.192,Russia
+2026-05-03 02:25,asmith,Admin,mfa_disabled,91.198.174.192,Russia
+2026-05-03 03:00,admin1,Domain Admin,password_change,10.10.1.15,United States
+2026-05-03 03:10,kpatel,User,failed_login,45.33.12.99,United States
+2026-05-03 03:11,kpatel,User,failed_login,45.33.12.99,United States
+2026-05-03 03:12,kpatel,User,failed_login,45.33.12.99,United States
+2026-05-03 03:13,kpatel,User,failed_login,45.33.12.99,United States
+2026-05-03 03:14,kpatel,User,failed_login,45.33.12.99,United States
+2026-05-03 03:15,kpatel,User,successful_login,45.33.12.99,United States
+2026-05-03 04:00,guestuser,User,account_locked,45.33.12.99,United States
