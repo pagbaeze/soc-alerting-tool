@@ -1,1 +1,406 @@
+===== Mini SOC Alert Report =====
+Generated: 2026-05-05 12:44:59.943547
+
+Alert ID: 3eb0a593-2fa3-4e6e-afba-317e313f6f87
+Severity: Low
+Category: General Security Alert
+Risk Score: 45/100
+Time: 2026-05-03 01:10
+User: jdoe
+Role: User
+Event Type: successful_login
+Source IP: 192.168.1.10
+Country: United States
+Reasons:
+- New IP detected for user: 192.168.1.10
+- Activity occurred after business hours
+MITRE ATT&CK Mapping:
+Indicators of Compromise (IOCs):
+- User Account: jdoe
+- Source IP: 192.168.1.10
+- Country: United States
+Analyst Response Actions:
+- Log activity and continue monitoring for anomalies.
+--------------------------------------------------
+Alert ID: 74254e57-d89b-419b-9ec2-c200aacd86c3
+Severity: Low
+Category: General Security Alert
+Risk Score: 25/100
+Time: 2026-05-03 01:12
+User: jdoe
+Role: User
+Event Type: failed_login
+Source IP: 192.168.1.10
+Country: United States
+Reasons:
+- Activity occurred after business hours
+MITRE ATT&CK Mapping:
+Indicators of Compromise (IOCs):
+- User Account: jdoe
+- Source IP: 192.168.1.10
+- Country: United States
+Analyst Response Actions:
+- Log activity and continue monitoring for anomalies.
+--------------------------------------------------
+Alert ID: fba70b52-d8e1-4c9f-ae18-311730ae639f
+Severity: Low
+Category: General Security Alert
+Risk Score: 25/100
+Time: 2026-05-03 01:13
+User: jdoe
+Role: User
+Event Type: failed_login
+Source IP: 192.168.1.10
+Country: United States
+Reasons:
+- Activity occurred after business hours
+MITRE ATT&CK Mapping:
+Indicators of Compromise (IOCs):
+- User Account: jdoe
+- Source IP: 192.168.1.10
+- Country: United States
+Analyst Response Actions:
+- Log activity and continue monitoring for anomalies.
+--------------------------------------------------
+Alert ID: 22130ca7-14fa-4052-af64-6c6a253ec174
+Severity: Low
+Category: General Security Alert
+Risk Score: 25/100
+Time: 2026-05-03 01:14
+User: jdoe
+Role: User
+Event Type: failed_login
+Source IP: 192.168.1.10
+Country: United States
+Reasons:
+- Activity occurred after business hours
+MITRE ATT&CK Mapping:
+Indicators of Compromise (IOCs):
+- User Account: jdoe
+- Source IP: 192.168.1.10
+- Country: United States
+Analyst Response Actions:
+- Log activity and continue monitoring for anomalies.
+--------------------------------------------------
+Alert ID: 1b3cf4d4-3e94-4f5c-bdef-b697023a8c4f
+Severity: Low
+Category: General Security Alert
+Risk Score: 45/100
+Time: 2026-05-03 02:00
+User: bwilliams
+Role: User
+Event Type: successful_login
+Source IP: 192.168.1.25
+Country: United States
+Reasons:
+- New IP detected for user: 192.168.1.25
+- Activity occurred after business hours
+MITRE ATT&CK Mapping:
+Indicators of Compromise (IOCs):
+- User Account: bwilliams
+- Source IP: 192.168.1.25
+- Country: United States
+Analyst Response Actions:
+- Log activity and continue monitoring for anomalies.
+--------------------------------------------------
+Alert ID: 7f9fd5fc-5487-4b9e-9c6f-05300cbdc8d0
+Severity: High
+Category: Suspicious Login
+Risk Score: 95/100
+Time: 2026-05-03 02:05
+User: bwilliams
+Role: User
+Event Type: successful_login
+Source IP: 185.220.101.10
+Country: Germany
+Reasons:
+- New IP detected for user: 185.220.101.10
+- Activity occurred after business hours
+- Impossible travel: United States to Germany
+MITRE ATT&CK Mapping:
+- T1078 - Valid Accounts
+Indicators of Compromise (IOCs):
+- User Account: bwilliams
+- Source IP: 185.220.101.10
+- Country: Germany
+Analyst Response Actions:
+- Contain affected account, system, or session if active.
+- Investigate authentication logs, endpoint logs, and related security alerts.
+- Identify scope of impact and search for related indicators across the environment.
+- Validate whether the activity was legitimate or unauthorized.
+- Initiate incident response procedures if malicious activity or compromise is confirmed.
+--------------------------------------------------
+Alert ID: 4cbab202-8da3-40c5-8bca-2dd8616c0142
+Severity: High
+Category: Suspicious Login
+Risk Score: 100/100
+Time: 2026-05-03 02:10
+User: bwilliams
+Role: User
+Event Type: successful_login
+Source IP: 103.251.167.20
+Country: China
+Reasons:
+- New IP detected for user: 103.251.167.20
+- Multiple login countries detected for user
+- Login activity from risky country: China
+- Activity occurred after business hours
+- Impossible travel: Germany to China
+MITRE ATT&CK Mapping:
+- T1078 - Valid Accounts
+Indicators of Compromise (IOCs):
+- User Account: bwilliams
+- Source IP: 103.251.167.20
+- Country: China
+Analyst Response Actions:
+- Contain affected account, system, or session if active.
+- Investigate authentication logs, endpoint logs, and related security alerts.
+- Identify scope of impact and search for related indicators across the environment.
+- Validate whether the activity was legitimate or unauthorized.
+- Initiate incident response procedures if malicious activity or compromise is confirmed.
+--------------------------------------------------
+Alert ID: 330c3259-feaf-4ee7-b9e7-c3d13bac0a04
+Severity: High
+Category: Suspicious Login
+Risk Score: 100/100
+Time: 2026-05-03 02:20
+User: asmith
+Role: Admin
+Event Type: successful_login
+Source IP: 91.198.174.192
+Country: Russia
+Reasons:
+- New IP detected for user: 91.198.174.192
+- Privileged account activity: Admin
+- Login activity from risky country: Russia
+- Activity occurred after business hours
+MITRE ATT&CK Mapping:
+- T1078 - Valid Accounts
+- T1078.002 - Domain Accounts
+Indicators of Compromise (IOCs):
+- User Account: asmith
+- Source IP: 91.198.174.192
+- Country: Russia
+Analyst Response Actions:
+- Contain affected account, system, or session if active.
+- Investigate authentication logs, endpoint logs, and related security alerts.
+- Identify scope of impact and search for related indicators across the environment.
+- Validate whether the activity was legitimate or unauthorized.
+- Initiate incident response procedures if malicious activity or compromise is confirmed.
+--------------------------------------------------
+Alert ID: 7d773347-836a-4aeb-bd39-464361e04ace
+Severity: High
+Category: Identity Security Risk
+Risk Score: 100/100
+Time: 2026-05-03 02:25
+User: asmith
+Role: Admin
+Event Type: mfa_disabled
+Source IP: 91.198.174.192
+Country: Russia
+Reasons:
+- Privileged account activity: Admin
+- Login activity from risky country: Russia
+- Activity occurred after business hours
+- MFA disabled
+MITRE ATT&CK Mapping:
+- T1078 - Valid Accounts
+- T1556 - Modify Authentication Process
+- T1078.002 - Domain Accounts
+Indicators of Compromise (IOCs):
+- User Account: asmith
+- Source IP: 91.198.174.192
+- Country: Russia
+Analyst Response Actions:
+- Contain affected account, system, or session if active.
+- Investigate authentication logs, endpoint logs, and related security alerts.
+- Identify scope of impact and search for related indicators across the environment.
+- Validate whether the activity was legitimate or unauthorized.
+- Initiate incident response procedures if malicious activity or compromise is confirmed.
+--------------------------------------------------
+Alert ID: 199be3af-a64c-40f1-9735-e058a76790e1
+Severity: High
+Category: Privileged Account Activity
+Risk Score: 100/100
+Time: 2026-05-03 03:00
+User: admin1
+Role: Domain Admin
+Event Type: password_change
+Source IP: 10.10.1.15
+Country: United States
+Reasons:
+- New IP detected for user: 10.10.1.15
+- Privileged account activity: Domain Admin
+- Activity occurred after business hours
+- Password changed
+MITRE ATT&CK Mapping:
+- T1078.002 - Domain Accounts
+- T1098 - Account Manipulation
+Indicators of Compromise (IOCs):
+- User Account: admin1
+- Source IP: 10.10.1.15
+- Country: United States
+Analyst Response Actions:
+- Contain affected account, system, or session if active.
+- Investigate authentication logs, endpoint logs, and related security alerts.
+- Identify scope of impact and search for related indicators across the environment.
+- Validate whether the activity was legitimate or unauthorized.
+- Initiate incident response procedures if malicious activity or compromise is confirmed.
+--------------------------------------------------
+Alert ID: e9af0400-8808-4bf6-8295-b777cb75ee7e
+Severity: Low
+Category: General Security Alert
+Risk Score: 45/100
+Time: 2026-05-03 03:10
+User: kpatel
+Role: User
+Event Type: failed_login
+Source IP: 45.33.12.99
+Country: United States
+Reasons:
+- New IP detected for user: 45.33.12.99
+- Activity occurred after business hours
+MITRE ATT&CK Mapping:
+Indicators of Compromise (IOCs):
+- User Account: kpatel
+- Source IP: 45.33.12.99
+- Country: United States
+Analyst Response Actions:
+- Log activity and continue monitoring for anomalies.
+--------------------------------------------------
+Alert ID: 8dfcd886-5c1b-4160-b7df-d75d42b2d1b8
+Severity: Low
+Category: General Security Alert
+Risk Score: 25/100
+Time: 2026-05-03 03:11
+User: kpatel
+Role: User
+Event Type: failed_login
+Source IP: 45.33.12.99
+Country: United States
+Reasons:
+- Activity occurred after business hours
+MITRE ATT&CK Mapping:
+Indicators of Compromise (IOCs):
+- User Account: kpatel
+- Source IP: 45.33.12.99
+- Country: United States
+Analyst Response Actions:
+- Log activity and continue monitoring for anomalies.
+--------------------------------------------------
+Alert ID: 23ea7dce-a77f-4bba-969f-a96ae8084c23
+Severity: Low
+Category: General Security Alert
+Risk Score: 25/100
+Time: 2026-05-03 03:12
+User: kpatel
+Role: User
+Event Type: failed_login
+Source IP: 45.33.12.99
+Country: United States
+Reasons:
+- Activity occurred after business hours
+MITRE ATT&CK Mapping:
+Indicators of Compromise (IOCs):
+- User Account: kpatel
+- Source IP: 45.33.12.99
+- Country: United States
+Analyst Response Actions:
+- Log activity and continue monitoring for anomalies.
+--------------------------------------------------
+Alert ID: 4dfb3a37-ce61-4b0b-998e-7d8b498e91e7
+Severity: Low
+Category: General Security Alert
+Risk Score: 25/100
+Time: 2026-05-03 03:13
+User: kpatel
+Role: User
+Event Type: failed_login
+Source IP: 45.33.12.99
+Country: United States
+Reasons:
+- Activity occurred after business hours
+MITRE ATT&CK Mapping:
+Indicators of Compromise (IOCs):
+- User Account: kpatel
+- Source IP: 45.33.12.99
+- Country: United States
+Analyst Response Actions:
+- Log activity and continue monitoring for anomalies.
+--------------------------------------------------
+Alert ID: 6c8df8f1-71eb-494c-bbc8-ac22fc22765b
+Severity: Medium
+Category: Brute Force / Account Lockout
+Risk Score: 75/100
+Time: 2026-05-03 03:14
+User: kpatel
+Role: User
+Event Type: failed_login
+Source IP: 45.33.12.99
+Country: United States
+Reasons:
+- Activity occurred after business hours
+- 5 failed login attempts
+MITRE ATT&CK Mapping:
+- T1110 - Brute Force
+Indicators of Compromise (IOCs):
+- User Account: kpatel
+- Source IP: 45.33.12.99
+- Country: United States
+Analyst Response Actions:
+- Investigate activity and validate whether it is legitimate.
+- Correlate with other logs or alerts for additional context.
+- Monitor for repeated or escalating behavior.
+--------------------------------------------------
+Alert ID: d72d8774-a884-413e-a22d-6bfd2efbdb79
+Severity: Medium
+Category: General Security Alert
+Risk Score: 70/100
+Time: 2026-05-03 03:15
+User: kpatel
+Role: User
+Event Type: successful_login
+Source IP: 45.33.12.99
+Country: United States
+Reasons:
+- Activity occurred after business hours
+- Successful login after multiple failed attempts
+MITRE ATT&CK Mapping:
+- T1110 - Brute Force
+Indicators of Compromise (IOCs):
+- User Account: kpatel
+- Source IP: 45.33.12.99
+- Country: United States
+Analyst Response Actions:
+- Investigate activity and validate whether it is legitimate.
+- Correlate with other logs or alerts for additional context.
+- Monitor for repeated or escalating behavior.
+--------------------------------------------------
+Alert ID: 2ead9210-744f-40ff-a744-d0d86b10b004
+Severity: High
+Category: General Security Alert
+Risk Score: 100/100
+Time: 2026-05-03 04:00
+User: guestuser
+Role: User
+Event Type: account_locked
+Source IP: 45.33.12.99
+Country: United States
+Reasons:
+- New IP detected for user: 45.33.12.99
+- Activity occurred after business hours
+- Account locked
+MITRE ATT&CK Mapping:
+- T1110 - Brute Force
+Indicators of Compromise (IOCs):
+- User Account: guestuser
+- Source IP: 45.33.12.99
+- Country: United States
+Analyst Response Actions:
+- Contain affected account, system, or session if active.
+- Investigate authentication logs, endpoint logs, and related security alerts.
+- Identify scope of impact and search for related indicators across the environment.
+- Validate whether the activity was legitimate or unauthorized.
+- Initiate incident response procedures if malicious activity or compromise is confirmed.
+--------------------------------------------------
 
