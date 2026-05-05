@@ -13,6 +13,7 @@ This project simulates a Security Operations Center (SOC) alerting system.
 ## Sample Output
 Example alert report:
 sample_output/soc_alert_report.txt
+
 This output demonstrates:
 - Risk scoring and severity classification  
 - Detection reasoning (why an alert was triggered)  
